@@ -91,7 +91,7 @@ Sub ConvertProgram():
             Cells(y, 3) = comps(j)          'Place the composer
             
             y = y + 1                       'Place all the pairs
-            py = (i * times) + j
+            py = (i * size) + j
             pair = 1
             x = 1
             Do While (pairs(py, pair) <> "" And pair < 17)
